@@ -1,12 +1,12 @@
-# 🖼️ Image Processing Stylization
+## Image Processing Stylization
 
-## 📌 Overview
+## Overview
 
 This project implements a complete image processing pipeline that applies multiple computer vision techniques to normalized input images.
 
 All images are first standardized using geometric and spatial transformations. After normalization, six core image processing techniques are applied. Each technique produces a separate processed output for comparison with the original image.
 
-The system is designed to ensure:
+## The system is designed to ensure:
 
 * Consistent image dimensions
 * Reproducibility of results
@@ -15,21 +15,21 @@ The system is designed to ensure:
 
 ---
 
-## 🚀 How to Run the Project
+## How to Run the Project
 
-### 1️⃣ Activate the Virtual Environment
+## 1. Activate the Virtual Environment
 
 ```bash
 venv\Scripts\Activate
 ```
 
-### 2️⃣ Run the Main Program
+## 2. Run the Main Program
 
 ```bash
 python src\main.py
 ```
 
-### 3️⃣ Run Unit Tests
+## 3. Run Unit Tests
 
 ```bash
 python -m pytest
@@ -37,36 +37,36 @@ python -m pytest
 
 ---
 
-## 🛠️ Image Normalization (Preprocessing)
+## Image Normalization (Preprocessing)
 
 Before applying image processing techniques, all input images are standardized.
 
-### 🔹 Center Square Cropping
+## Center Square Cropping
 
 * Geometric transformation
 * Extracts the centered square portion of the image
 
-### 🔹 Fixed-Size Image Resizing
+## Fixed-Size Image Resizing
 
 * Spatial transformation
 * Ensures consistent output dimensions
 
-⚠️ These steps are considered preprocessing and are not counted as core image processing techniques.
+These steps are considered preprocessing and are not counted as core image processing techniques.
 
 ---
 
-## 🎯 Implemented Image Processing Techniques (6)
+## Implemented Image Processing Techniques (6)
 
 The project applies six primary image processing techniques:
 
-### 1️⃣ Grayscale Conversion
+### 1. Grayscale Conversion
 
 * Converts RGB/BGR images into intensity-based images
 * Serves as the foundation for many vision algorithms
 
 ---
 
-### 2️⃣ Gaussian Blur
+### 2. Gaussian Blur
 
 * Applies smoothing using a Gaussian kernel
 * Reduces image noise
@@ -74,7 +74,7 @@ The project applies six primary image processing techniques:
 
 ---
 
-### 3️⃣ Pixelation (Downsampling + Upsampling)
+### 3. Pixelation (Downsampling + Upsampling)
 
 * Reduces spatial resolution
 * Enlarges the image back to original size
@@ -82,21 +82,21 @@ The project applies six primary image processing techniques:
 
 ---
 
-### 4️⃣ Canny Edge Detection
+### 4. Canny Edge Detection
 
 * Detects edges using gradient magnitude and hysteresis
 * Classic edge detection algorithm in computer vision
 
 ---
 
-### 5️⃣ Binary Thresholding
+### 5. Binary Thresholding
 
 * Converts grayscale images into black-and-white images
 * Demonstrates basic image segmentation
 
 ---
 
-### 6️⃣ Pencil Sketch Effect (Non-Linear Blending)
+### 6. Pencil Sketch Effect (Non-Linear Blending)
 
 A composite stylization technique combining:
 
@@ -109,7 +109,7 @@ Although composed of multiple steps, it is considered one technique because it p
 
 ---
 
-## ❓ Why It’s 6 Techniques (Not 8)
+## Why It’s 6 Techniques (Not 8)
 
 Cropping and resizing may appear as additional techniques, but academically they are classified as preprocessing and normalization steps rather than independent image processing methods.
 
@@ -117,7 +117,7 @@ The project therefore implements **six core image processing techniques**, suppo
 
 ---
 
-## 📊 Output
+## Output
 
 The final output consists of:
 
@@ -130,7 +130,7 @@ The system allows selecting a final technique for comparison against the origina
 
 ---
 
-## 🧠 Project Summary
+## Project Summary
 
 This project demonstrates a structured and reproducible workflow for image processing. Images are first normalized through cropping and resizing, then processed using six core techniques: grayscale conversion, Gaussian blur, pixelation, Canny edge detection, binary thresholding, and pencil sketch stylization.
 
