@@ -6,17 +6,17 @@
 - [✅] Dependencies installed (`pip install -r requirements.txt`)
 
 ## 2️⃣ Input Images
-- [] Sample images added for testing
-- [] System handles invalid or missing files gracefully
+- [✅] Sample images added for testing
+- [✅] System handles invalid or missing files gracefully
 
 ## 3️⃣ Output Verification
-- [] Grayscale image generated
-- [] Pencil sketch image generated
-- [] Duotone image generated
-- [] Pixelated image generated
-- [] Soft glow image generated
-- [] All output images saved in correct folder
-- [] Output images have correct dimensions
+- [✅] Grayscale image generated
+- [✅] Pencil sketch image generated
+- [✅] Duotone image generated
+- [✅] Pixelated image generated
+- [✅] Soft glow image generated
+- [✅] All output images saved in correct folder
+- [✅] Output images have correct dimensions
 
 ## 4️⃣ Technique Verification
 
