@@ -44,18 +44,18 @@
 - [✅] Output image retains correct resolution
 
 ## 5️⃣ Preprocessing Verification
-- [] Center square cropping applied
-- [] Fixed-size resizing applied
-- [] No distortion or unexpected scaling
+- [✅] Center square cropping applied
+- [✅] Fixed-size resizing applied
+- [✅] No distortion or unexpected scaling
 
 ## 6️⃣ Program Stability
-- [] Program runs without crashing
-- [] Handles multiple images correctly
-- [] Optional: All pytest tests pass (if available)
+- [✅] Program runs without crashing
+- [✅] Handles multiple images correctly
+- [✅] Optional: All pytest tests pass (if available)
 
 ## 7️⃣ Optional Extras
 - [] Add screenshots of outputs for reference
 - [] Record any bugs or inconsistencies in outputs
 
 ### 🐞 Bugs / Notes
-- [✅ ] No Bugs. All outputs were verified manually and automatically, and all tests passed.
+- [] No Bugs. All outputs were verified manually and automatically, and all tests passed.
