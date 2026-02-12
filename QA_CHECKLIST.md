@@ -21,27 +21,27 @@
 ## 4️⃣ Technique Verification
 
 ### Grayscale Conversion
-- [] Image is truly black & white
-- [] Pixel intensity values correctly represent brightness
+- [✅] Image is truly black & white
+- [✅] Pixel intensity values correctly represent brightness
 
 ### Pencil Sketch Effect
-- [] Edges are clearly visible
-- [] Image resembles a sketch drawing
-- [] No excessive noise or artifacts
+- [✅] Edges are clearly visible
+- [✅] Image resembles a sketch drawing
+- [✅] No excessive noise or artifacts
 
 ### Duotone Color Mapping
-- [] Only two dominant colors present
-- [] Color mapping follows grayscale intensity
+- [✅] Only two dominant colors present
+- [✅] Color mapping follows grayscale intensity
 
 ### Pixelation
-- [] Visible block/mosaic effect
-- [] Fine details reduced
-- [] Output image retains original dimensions after upsampling
+- [✅] Visible block/mosaic effect
+- [✅] Fine details reduced
+- [✅] Output image retains original dimensions after upsampling
 
 ### Soft Glow Effect
-- [] Highlights enhanced
-- [] Blending is smooth (not overexposed)
-- [] Output image retains correct resolution
+- [✅] Highlights enhanced
+- [✅] Blending is smooth (not overexposed)
+- [✅] Output image retains correct resolution
 
 ## 5️⃣ Preprocessing Verification
 - [] Center square cropping applied
