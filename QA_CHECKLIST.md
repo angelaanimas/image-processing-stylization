@@ -1,9 +1,9 @@
 # 🧪 QA Checklist – Image Processing Stylization
 
 ## 1️⃣ Environment Setup
-- [] Python installed
-- [] Virtual environment activated (`venv\Scripts\Activate`)
-- [] Dependencies installed (`pip install -r requirements.txt`)
+- [✅] Python installed
+- [✅] Virtual environment activated (`venv\Scripts\Activate`)
+- [✅] Dependencies installed (`pip install -r requirements.txt`)
 
 ## 2️⃣ Input Images
 - [] Sample images added for testing
