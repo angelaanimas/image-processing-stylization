@@ -1,15 +1,15 @@
-# 🧪 QA Checklist – Image Processing Stylization
+# QA Checklist – Image Processing Stylization
 
-## 1️⃣ Environment Setup
+## 1. Environment Setup
 - [✅] Python installed
 - [✅] Virtual environment activated (`venv\Scripts\Activate`)
 - [✅] Dependencies installed (`pip install -r requirements.txt`)
 
-## 2️⃣ Input Images
+## 2. Input Images
 - [✅] Sample images added for testing
 - [✅] System handles invalid or missing files gracefully
 
-## 3️⃣ Output Verification
+## 3. Output Verification
 - [✅] Grayscale image generated
 - [✅] Pencil sketch image generated
 - [✅] Duotone image generated
@@ -18,7 +18,7 @@
 - [✅] All output images saved in correct folder
 - [✅] Output images have correct dimensions
 
-## 4️⃣ Technique Verification
+## 4. Technique Verification
 
 ### Grayscale Conversion
 - [✅] Image is truly black & white
@@ -43,19 +43,19 @@
 - [✅] Blending is smooth (not overexposed)
 - [✅] Output image retains correct resolution
 
-## 5️⃣ Preprocessing Verification
+## 5. Preprocessing Verification
 - [✅] Center square cropping applied
 - [✅] Fixed-size resizing applied
 - [✅] No distortion or unexpected scaling
 
-## 6️⃣ Program Stability
+## 6. Program Stability
 - [✅] Program runs without crashing
 - [✅] Handles multiple images correctly
 - [✅] Optional: All pytest tests pass (if available)
 
-## 7️⃣ Optional Extras
+## 7. Optional Extras
 - [✅] Add screenshots of outputs for reference
 - [✅] Record any bugs or inconsistencies in outputs
 
-### 🐞 Bugs / Notes
+### Bugs / Notes
 - [✅] No Bugs. All outputs were verified manually and automatically, and all tests passed.
